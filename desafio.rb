@@ -1,5 +1,5 @@
 # Ejercicio 1
-#arreglo = [1,2,3,9,1,4,5,2,3,6,6]
+# arreglo = [1,2,3,9,1,4,5,2,3,6,6]
 # #1
 # puts arreglo[0]
 # #2
@@ -18,10 +18,10 @@
 #     puts value
 #   end
 # end
-
+#
 #
 # # Ejercicio 2
-#a = [1,2,3,9,1,4,5,2,3,6,1]
+# a = [1,2,3,9,1,4,5,2,3,6,1]
 # #1
 # b = a.dup
 # b.pop
@@ -59,3 +59,36 @@
 #   end
 # end
 # puts f
+
+# Ejercicio 3
+a = [1,2,3,9,1,4,5,2,3,6,6]
+# #1
+# b = a.dup
+# b.each do |value|
+#   if value.even?
+#     b.delete(value)
+#   end
+# end
+# puts b
+#
+#2
+# x = 0
+# a.each do |value|
+#   x = value + x
+# end
+# puts "los elementos del array suman #{x}"
+#
+#3
+# x = 0
+# a.each do |value|
+#   x        = value + x
+# end
+# promedio = x/(a.size).to_f
+# puts "el promedio de la suma de los elementos de a es #{promedio}"
+#4
+# a.each do |value|
+#   b = []
+#   value += 1
+#   b.push(value)
+#   puts b
+# end
